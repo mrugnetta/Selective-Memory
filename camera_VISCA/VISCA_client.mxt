@@ -1,0 +1,1 @@
+max v2;#N vpatcher 1093 139 1344 361;#P inlet 112 72 15 0;#P window setfont "Sans Serif" 9.;#P newex 48 72 59 196617 r to_serial;#P newex 48 146 70 196617 s visca_reply;#P newex 48 118 86 196617 udpreceive 4015;#P newex 48 96 132 196617 udpsend 192.168.1.9 4014;#P connect 4 0 0 0;#P connect 3 0 0 0;#P connect 1 0 2 0;#P pop;
